@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Wavehaus';
+    src: url('../fonts/Wavehaus-28Thin.otf') format('opentype'),
+         url('../fonts/Wavehaus-42Light.otf') format('opentype'),
+         url('../fonts/Wavehaus-66Book.otf') format('opentype'),
+         url('../fonts/Wavehaus-95SemiBold.otf') format('opentype'),
+         url('../fonts/Wavehaus-128Bold.otf') format('opentype'),
+         url('../fonts/Wavehaus-158ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Wavehaus';
+    src: url('../fonts/Wavehaus-66Book.otf') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Wavehaus-SemiBold';
+    src: url('../fonts/Wavehaus-95SemiBold.otf') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Wavehaus-Bold';
+    src: url('../fonts/Wavehaus-128Bold.otf') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Wavehaus-EBold';
+    src: url('../fonts/Wavehaus-158ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+
+.tab {
+    @apply inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300;
+}
+
+/* Add some basic styling to the tab content */
+.tab-content {
+    @apply hidden p-4 pt-6;
+}
+
+/* Show the active tab content */
+.tab-content.active {
+    @apply block;
+}

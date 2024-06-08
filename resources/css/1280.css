@@ -1,0 +1,207 @@
+@media (min-width: 1280px) {
+    .btn-p-lg:before {
+        background: url("../images/star.png");
+        content: "";
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        margin-top: 41px;
+        margin-left: 10px;
+    }
+    
+    .btn-p-lg:after {
+        background: url("../images/star.png");
+        content: "";
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        margin-top: -22px;
+        margin-left: -35px;
+    }
+    .btn-p-md:before {
+        background: url("../images/star.png");
+        content: "";
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    
+    .btn-p-md:after {
+        background: url("../images/star.png");
+        content: "";
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        margin-top: -20px;
+        margin-left: -35px;
+    }
+    .bg-f1:after {
+        background: url("../images/bg-fade.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        margin-top: -360px;
+        margin-left: 550px;
+    }
+    .bg-underline-md:after {
+        background: url("../images/underline-md.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 250px;
+        height: 30px;
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 45px;
+    }
+    .bg-f2:after {
+        background: url("../images/bg-fade.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 25%;
+    }
+    .bg-f3:after {
+        background: url("../images/bg-fade.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: -170px;
+    }
+
+    .bg-f4:after {
+        background: url("../images/bg-fade.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+    .bg-f5:before {
+        background: url("../images/bg-fade.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        margin-top: -100px;
+        margin-left: -800px;
+    }
+    .bg-f6:after {
+        background: url("../images/bg-fade.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        margin-top: -600px;
+        margin-left: 180px;
+    }
+    .bg-f7:after {
+        background: url("../images/bg-fade.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 600px;
+        height: 100%;
+        position: absolute;
+        margin-top: -800px;
+        margin-left: 21%;
+        z-index: -100;
+    }
+    .bg-user:after {
+        background: url("../images/sparkler-yellow.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: -54px;
+        margin-left: 317px;
+    }
+    .bg-underline-gimmick:before {
+        background: url("../images/underline-lg.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 385px;
+        height: 30px;
+        position: absolute;
+        margin-top: 170px;
+        margin-left: -430px;
+    }
+    .bg-star:before {
+        background: url("../images/sparkler-green.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: 105px;
+        margin-left: -545px;
+    }
+
+    .bg-star:after {
+        background: url("../images/bg-star.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: -155px;
+        margin-left: 510px;
+    }
+
+    .bg-role:before {
+        background: url("../images/bg-star-green.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: 35px;
+        margin-left: -495px;
+    }
+
+    .bg-role:after {
+        background: url("../images/bg-star-green.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: -85px;
+        margin-left: 425px;
+    }
+
+    .bg-magic:before {
+        background: url("../images/sparkler-green.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: 38px;
+        margin-left: -235px;
+    }
+
+    .bg-magic:after {
+        background: url("../images/sparkler-gm.png");
+        background-repeat: no-repeat;
+        content: "";
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: -755px;
+        margin-left: 320px;
+    }
+}

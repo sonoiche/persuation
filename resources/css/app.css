@@ -1,0 +1,35 @@
+@import url('./fonts.css');
+@import url('./375.css');
+@import url('./425.css');
+@import url('./640.css');
+@import url('./768.css');
+@import url('./1024.css');
+@import url('./1280.css');
+@import url('./1536.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-out {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+  
+.fade-out.opacity-0 {
+    opacity: 0;
+}
+  
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+  
+.fade-in.opacity-1 {
+    opacity: 1;
+}
+
+.active::before {
+    @apply absolute -bottom-[2px] left-[100px] w-[21%] h-[3px] bg-secondary;
+    content: "";
+}
